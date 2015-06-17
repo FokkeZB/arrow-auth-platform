@@ -1,0 +1,22 @@
+{
+  "name": "arrow-auth-platform",
+  "appc-npm": {
+    "target": {
+      "arrow": "lib/"
+    },
+    "ignore": [
+      "package.json",
+      "README.md"
+    ]
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "node ./appc-npm"
+  },
+  "keywords": [
+    "appcelerator",
+    "arrow",
+    "appc-npm",
+    "appc-lib"
+  ]
+}
