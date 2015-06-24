@@ -29,5 +29,8 @@
     "arrow",
     "appc-npm",
     "appc-lib"
-  ]
+  ],
+  "dependencies": {
+    "deasync": "^0.1.0"
+  }
 }
