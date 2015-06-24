@@ -6,6 +6,7 @@
       "arrow": "lib/"
     },
     "ignore": [
+      ".gitignore",
       "package.json",
       "README.md"
     ]
