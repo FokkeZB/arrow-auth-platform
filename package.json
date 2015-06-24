@@ -11,7 +11,7 @@
       "README.md"
     ]
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "postinstall": "node ./appc-npm"
   },
