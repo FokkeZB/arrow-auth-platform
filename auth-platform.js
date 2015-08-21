@@ -99,7 +99,9 @@ Plugin.prototype.validateRequest = function (req, resp) {
 			return false;
 		}
 
-		var currentUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+		// always https or we'll loop
+		var currentUrl = 'https://' + req.get('host') + req.originalUrl;
+
 		var loginUrl = AppC.baseurl + '/?redirect=' + encodeURIComponent(currentUrl);
 
 		// or redirect for SSO
