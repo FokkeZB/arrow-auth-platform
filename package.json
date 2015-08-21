@@ -7,8 +7,8 @@
     },
     "ignore": [
       ".gitignore",
-      "package.json",
-      "README.md"
+      "README.md",
+      "package.json"
     ]
   },
   "version": "1.0.3",
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/fokkezb/arrow-auth-platform#readme",
   "keywords": [
-    "appcelerator",
-    "arrow",
+    "appc-lib",
     "appc-npm",
-    "appc-lib"
+    "appcelerator",
+    "arrow"
   ],
   "dependencies": {
     "deasync": "^0.1.0"
